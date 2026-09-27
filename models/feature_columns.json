@@ -1,0 +1,21 @@
+[
+  "hour",
+  "day_of_week",
+  "is_weekend",
+  "current_balance",
+  "withdrawal_1h",
+  "withdrawal_3h",
+  "withdrawal_6h",
+  "withdrawal_12h",
+  "withdrawal_24h",
+  "rolling_mean_withdrawal",
+  "rolling_std_withdrawal",
+  "transaction_velocity",
+  "demand_growth_rate",
+  "time_since_last_refill",
+  "estimated_daily_demand",
+  "estimated_hours_to_empty",
+  "atm_avg_daily_demand",
+  "atm_peak_hour_demand",
+  "refill_amount"
+]

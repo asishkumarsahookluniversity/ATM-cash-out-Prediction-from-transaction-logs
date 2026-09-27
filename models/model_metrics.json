@@ -1,0 +1,1236 @@
+{
+  "dataset_size": 5044,
+  "train_samples": 3530,
+  "val_samples": 757,
+  "test_samples": 757,
+  "training_period": "2026-07-25 to 2026-09-05",
+  "testing_period": "2026-09-13 to 2026-09-22",
+  "selected_model": "Logistic Regression",
+  "models": [
+    {
+      "accuracy": 0.9458,
+      "precision": 0.6975,
+      "recall": 0.9432,
+      "f1": 0.8019,
+      "roc_auc": 0.989,
+      "confusion_matrix": {
+        "tp": 83,
+        "tn": 633,
+        "fp": 36,
+        "fn": 5
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0114,
+          "threshold": 0.9985
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1818,
+          "threshold": 0.9891
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3523,
+          "threshold": 0.9797
+        },
+        {
+          "fpr": 0.003,
+          "tpr": 0.5,
+          "threshold": 0.9569
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.6364,
+          "threshold": 0.939
+        },
+        {
+          "fpr": 0.0105,
+          "tpr": 0.7841,
+          "threshold": 0.8649
+        },
+        {
+          "fpr": 0.0209,
+          "tpr": 0.875,
+          "threshold": 0.7317
+        },
+        {
+          "fpr": 0.0359,
+          "tpr": 0.9318,
+          "threshold": 0.5398
+        },
+        {
+          "fpr": 0.0568,
+          "tpr": 0.9432,
+          "threshold": 0.3793
+        },
+        {
+          "fpr": 0.0777,
+          "tpr": 0.9545,
+          "threshold": 0.2985
+        },
+        {
+          "fpr": 0.0972,
+          "tpr": 0.9773,
+          "threshold": 0.2076
+        },
+        {
+          "fpr": 0.1166,
+          "tpr": 1.0,
+          "threshold": 0.1416
+        },
+        {
+          "fpr": 0.139,
+          "tpr": 1.0,
+          "threshold": 0.0772
+        },
+        {
+          "fpr": 0.1614,
+          "tpr": 1.0,
+          "threshold": 0.0513
+        },
+        {
+          "fpr": 0.1839,
+          "tpr": 1.0,
+          "threshold": 0.0357
+        },
+        {
+          "fpr": 0.2063,
+          "tpr": 1.0,
+          "threshold": 0.0264
+        },
+        {
+          "fpr": 0.2287,
+          "tpr": 1.0,
+          "threshold": 0.0174
+        },
+        {
+          "fpr": 0.2511,
+          "tpr": 1.0,
+          "threshold": 0.013
+        },
+        {
+          "fpr": 0.2735,
+          "tpr": 1.0,
+          "threshold": 0.0103
+        },
+        {
+          "fpr": 0.296,
+          "tpr": 1.0,
+          "threshold": 0.0079
+        },
+        {
+          "fpr": 0.3184,
+          "tpr": 1.0,
+          "threshold": 0.0053
+        },
+        {
+          "fpr": 0.3408,
+          "tpr": 1.0,
+          "threshold": 0.0032
+        },
+        {
+          "fpr": 0.3632,
+          "tpr": 1.0,
+          "threshold": 0.0021
+        },
+        {
+          "fpr": 0.3857,
+          "tpr": 1.0,
+          "threshold": 0.0016
+        },
+        {
+          "fpr": 0.4081,
+          "tpr": 1.0,
+          "threshold": 0.0012
+        },
+        {
+          "fpr": 0.4305,
+          "tpr": 1.0,
+          "threshold": 0.0008
+        },
+        {
+          "fpr": 0.4529,
+          "tpr": 1.0,
+          "threshold": 0.0006
+        },
+        {
+          "fpr": 0.4753,
+          "tpr": 1.0,
+          "threshold": 0.0005
+        },
+        {
+          "fpr": 0.4978,
+          "tpr": 1.0,
+          "threshold": 0.0003
+        },
+        {
+          "fpr": 0.5202,
+          "tpr": 1.0,
+          "threshold": 0.0002
+        },
+        {
+          "fpr": 0.5426,
+          "tpr": 1.0,
+          "threshold": 0.0002
+        },
+        {
+          "fpr": 0.565,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.5874,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.6099,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.6323,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.6547,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.6771,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.6996,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.722,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.7444,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.7668,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.7892,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.8117,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.8341,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.8565,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.8789,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.9013,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.9238,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.9462,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.9686,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.991,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.0
+        }
+      ],
+      "model_name": "Logistic Regression",
+      "type": "linear"
+    },
+    {
+      "accuracy": 0.9604,
+      "precision": 0.7736,
+      "recall": 0.9318,
+      "f1": 0.8454,
+      "roc_auc": 0.9892,
+      "confusion_matrix": {
+        "tp": 82,
+        "tn": 645,
+        "fp": 24,
+        "fn": 6
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0114,
+          "threshold": 0.98
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1818,
+          "threshold": 0.961
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3523,
+          "threshold": 0.9536
+        },
+        {
+          "fpr": 0.003,
+          "tpr": 0.5,
+          "threshold": 0.7211
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.6364,
+          "threshold": 0.7043
+        },
+        {
+          "fpr": 0.0105,
+          "tpr": 0.7841,
+          "threshold": 0.6487
+        },
+        {
+          "fpr": 0.0209,
+          "tpr": 0.875,
+          "threshold": 0.5487
+        },
+        {
+          "fpr": 0.0359,
+          "tpr": 0.9318,
+          "threshold": 0.4048
+        },
+        {
+          "fpr": 0.0568,
+          "tpr": 0.9432,
+          "threshold": 0.2773
+        },
+        {
+          "fpr": 0.0777,
+          "tpr": 0.9545,
+          "threshold": 0.1895
+        },
+        {
+          "fpr": 0.0957,
+          "tpr": 0.9886,
+          "threshold": 0.0922
+        },
+        {
+          "fpr": 0.1166,
+          "tpr": 1.0,
+          "threshold": 0.0543
+        },
+        {
+          "fpr": 0.139,
+          "tpr": 1.0,
+          "threshold": 0.029
+        },
+        {
+          "fpr": 0.1614,
+          "tpr": 1.0,
+          "threshold": 0.0192
+        },
+        {
+          "fpr": 0.1839,
+          "tpr": 1.0,
+          "threshold": 0.0134
+        },
+        {
+          "fpr": 0.2063,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.2287,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.2511,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.2735,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.296,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3184,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3408,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3632,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3857,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4081,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4305,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4529,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4753,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4978,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5202,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5426,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.565,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5874,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6099,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6323,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6547,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6771,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6996,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.722,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7444,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7668,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7892,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8117,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8341,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8565,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8789,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9013,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9238,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9462,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9686,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.991,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.01
+        }
+      ],
+      "model_name": "Gradient Boosting",
+      "type": "gradient_boosting"
+    },
+    {
+      "accuracy": 0.9617,
+      "precision": 0.7864,
+      "recall": 0.9205,
+      "f1": 0.8482,
+      "roc_auc": 0.989,
+      "confusion_matrix": {
+        "tp": 81,
+        "tn": 647,
+        "fp": 22,
+        "fn": 7
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0114,
+          "threshold": 0.98
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1818,
+          "threshold": 0.961
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3523,
+          "threshold": 0.9536
+        },
+        {
+          "fpr": 0.003,
+          "tpr": 0.5,
+          "threshold": 0.7211
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.6364,
+          "threshold": 0.7043
+        },
+        {
+          "fpr": 0.0105,
+          "tpr": 0.7841,
+          "threshold": 0.6487
+        },
+        {
+          "fpr": 0.0209,
+          "tpr": 0.875,
+          "threshold": 0.5487
+        },
+        {
+          "fpr": 0.0359,
+          "tpr": 0.9318,
+          "threshold": 0.4048
+        },
+        {
+          "fpr": 0.0568,
+          "tpr": 0.9432,
+          "threshold": 0.2845
+        },
+        {
+          "fpr": 0.0777,
+          "tpr": 0.9545,
+          "threshold": 0.2239
+        },
+        {
+          "fpr": 0.0972,
+          "tpr": 0.9773,
+          "threshold": 0.1557
+        },
+        {
+          "fpr": 0.1166,
+          "tpr": 1.0,
+          "threshold": 0.1062
+        },
+        {
+          "fpr": 0.139,
+          "tpr": 1.0,
+          "threshold": 0.0579
+        },
+        {
+          "fpr": 0.1614,
+          "tpr": 1.0,
+          "threshold": 0.0384
+        },
+        {
+          "fpr": 0.1839,
+          "tpr": 1.0,
+          "threshold": 0.0268
+        },
+        {
+          "fpr": 0.2063,
+          "tpr": 1.0,
+          "threshold": 0.0198
+        },
+        {
+          "fpr": 0.2287,
+          "tpr": 1.0,
+          "threshold": 0.0131
+        },
+        {
+          "fpr": 0.2511,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.2735,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.296,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3184,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3408,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3632,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.3857,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4081,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4305,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4529,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4753,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.4978,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5202,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5426,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.565,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.5874,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6099,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6323,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6547,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6771,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.6996,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.722,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7444,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7668,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.7892,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8117,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8341,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8565,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.8789,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9013,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9238,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9462,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.9686,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 0.991,
+          "tpr": 1.0,
+          "threshold": 0.01
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.01
+        }
+      ],
+      "model_name": "Random Forest",
+      "type": "ensemble_bagging"
+    }
+  ],
+  "best_metrics": {
+    "accuracy": 0.9458,
+    "precision": 0.6975,
+    "recall": 0.9432,
+    "f1": 0.8019,
+    "roc_auc": 0.989,
+    "confusion_matrix": {
+      "tp": 83,
+      "tn": 633,
+      "fp": 36,
+      "fn": 5
+    },
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0,
+        "threshold": 1.0
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0114,
+        "threshold": 0.9985
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.1818,
+        "threshold": 0.9891
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.3523,
+        "threshold": 0.9797
+      },
+      {
+        "fpr": 0.003,
+        "tpr": 0.5,
+        "threshold": 0.9569
+      },
+      {
+        "fpr": 0.0075,
+        "tpr": 0.6364,
+        "threshold": 0.939
+      },
+      {
+        "fpr": 0.0105,
+        "tpr": 0.7841,
+        "threshold": 0.8649
+      },
+      {
+        "fpr": 0.0209,
+        "tpr": 0.875,
+        "threshold": 0.7317
+      },
+      {
+        "fpr": 0.0359,
+        "tpr": 0.9318,
+        "threshold": 0.5398
+      },
+      {
+        "fpr": 0.0568,
+        "tpr": 0.9432,
+        "threshold": 0.3793
+      },
+      {
+        "fpr": 0.0777,
+        "tpr": 0.9545,
+        "threshold": 0.2985
+      },
+      {
+        "fpr": 0.0972,
+        "tpr": 0.9773,
+        "threshold": 0.2076
+      },
+      {
+        "fpr": 0.1166,
+        "tpr": 1.0,
+        "threshold": 0.1416
+      },
+      {
+        "fpr": 0.139,
+        "tpr": 1.0,
+        "threshold": 0.0772
+      },
+      {
+        "fpr": 0.1614,
+        "tpr": 1.0,
+        "threshold": 0.0513
+      },
+      {
+        "fpr": 0.1839,
+        "tpr": 1.0,
+        "threshold": 0.0357
+      },
+      {
+        "fpr": 0.2063,
+        "tpr": 1.0,
+        "threshold": 0.0264
+      },
+      {
+        "fpr": 0.2287,
+        "tpr": 1.0,
+        "threshold": 0.0174
+      },
+      {
+        "fpr": 0.2511,
+        "tpr": 1.0,
+        "threshold": 0.013
+      },
+      {
+        "fpr": 0.2735,
+        "tpr": 1.0,
+        "threshold": 0.0103
+      },
+      {
+        "fpr": 0.296,
+        "tpr": 1.0,
+        "threshold": 0.0079
+      },
+      {
+        "fpr": 0.3184,
+        "tpr": 1.0,
+        "threshold": 0.0053
+      },
+      {
+        "fpr": 0.3408,
+        "tpr": 1.0,
+        "threshold": 0.0032
+      },
+      {
+        "fpr": 0.3632,
+        "tpr": 1.0,
+        "threshold": 0.0021
+      },
+      {
+        "fpr": 0.3857,
+        "tpr": 1.0,
+        "threshold": 0.0016
+      },
+      {
+        "fpr": 0.4081,
+        "tpr": 1.0,
+        "threshold": 0.0012
+      },
+      {
+        "fpr": 0.4305,
+        "tpr": 1.0,
+        "threshold": 0.0008
+      },
+      {
+        "fpr": 0.4529,
+        "tpr": 1.0,
+        "threshold": 0.0006
+      },
+      {
+        "fpr": 0.4753,
+        "tpr": 1.0,
+        "threshold": 0.0005
+      },
+      {
+        "fpr": 0.4978,
+        "tpr": 1.0,
+        "threshold": 0.0003
+      },
+      {
+        "fpr": 0.5202,
+        "tpr": 1.0,
+        "threshold": 0.0002
+      },
+      {
+        "fpr": 0.5426,
+        "tpr": 1.0,
+        "threshold": 0.0002
+      },
+      {
+        "fpr": 0.565,
+        "tpr": 1.0,
+        "threshold": 0.0001
+      },
+      {
+        "fpr": 0.5874,
+        "tpr": 1.0,
+        "threshold": 0.0001
+      },
+      {
+        "fpr": 0.6099,
+        "tpr": 1.0,
+        "threshold": 0.0001
+      },
+      {
+        "fpr": 0.6323,
+        "tpr": 1.0,
+        "threshold": 0.0001
+      },
+      {
+        "fpr": 0.6547,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.6771,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.6996,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.722,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.7444,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.7668,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.7892,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.8117,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.8341,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.8565,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.8789,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.9013,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.9238,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.9462,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.9686,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 0.991,
+        "tpr": 1.0,
+        "threshold": 0.0
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0,
+        "threshold": 0.0
+      }
+    ],
+    "model_name": "Logistic Regression",
+    "type": "linear"
+  },
+  "feature_importances": [
+    {
+      "feature": "estimated_hours_to_empty",
+      "importance": 0.4208,
+      "displayName": "Estimated Hours To Empty"
+    },
+    {
+      "feature": "current_balance",
+      "importance": 0.3857,
+      "displayName": "Current Balance"
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0279,
+      "displayName": "Is Weekend"
+    },
+    {
+      "feature": "withdrawal_24h",
+      "importance": 0.0248,
+      "displayName": "Withdrawal 24H"
+    },
+    {
+      "feature": "withdrawal_6h",
+      "importance": 0.0209,
+      "displayName": "Withdrawal 6H"
+    },
+    {
+      "feature": "atm_avg_daily_demand",
+      "importance": 0.0205,
+      "displayName": "Atm Avg Daily Demand"
+    },
+    {
+      "feature": "atm_peak_hour_demand",
+      "importance": 0.0143,
+      "displayName": "Atm Peak Hour Demand"
+    },
+    {
+      "feature": "withdrawal_12h",
+      "importance": 0.0118,
+      "displayName": "Withdrawal 12H"
+    },
+    {
+      "feature": "refill_amount",
+      "importance": 0.0101,
+      "displayName": "Refill Amount"
+    },
+    {
+      "feature": "transaction_velocity",
+      "importance": 0.0096,
+      "displayName": "Transaction Velocity"
+    },
+    {
+      "feature": "time_since_last_refill",
+      "importance": 0.0094,
+      "displayName": "Time Since Last Refill"
+    },
+    {
+      "feature": "rolling_std_withdrawal",
+      "importance": 0.0084,
+      "displayName": "Rolling Std Withdrawal"
+    },
+    {
+      "feature": "withdrawal_1h",
+      "importance": 0.0069,
+      "displayName": "Withdrawal 1H"
+    },
+    {
+      "feature": "demand_growth_rate",
+      "importance": 0.0066,
+      "displayName": "Demand Growth Rate"
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0061,
+      "displayName": "Hour"
+    },
+    {
+      "feature": "withdrawal_3h",
+      "importance": 0.0042,
+      "displayName": "Withdrawal 3H"
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0041,
+      "displayName": "Day Of Week"
+    },
+    {
+      "feature": "rolling_mean_withdrawal",
+      "importance": 0.0041,
+      "displayName": "Rolling Mean Withdrawal"
+    },
+    {
+      "feature": "estimated_daily_demand",
+      "importance": 0.0039,
+      "displayName": "Estimated Daily Demand"
+    }
+  ]
+}

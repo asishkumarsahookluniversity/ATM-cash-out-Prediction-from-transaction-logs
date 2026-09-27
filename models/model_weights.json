@@ -1,0 +1,127 @@
+{
+  "selected_model": "Logistic Regression",
+  "logistic_regression": {
+    "type": "logistic_regression",
+    "weights": [
+      -0.05427292033919768,
+      0.004283765914877096,
+      0.3503101711263195,
+      -3.018115331322159,
+      -0.07406496164491248,
+      -0.0056165313969644155,
+      -0.14768146117038256,
+      0.19889906867090848,
+      0.14524549745143298,
+      -0.004193428083372916,
+      -0.1139240337146755,
+      0.03122155950716583,
+      0.023936159178264676,
+      0.03934284447440604,
+      0.0,
+      -3.0181153313221643,
+      0.26387968112493065,
+      0.2638796811238679,
+      0.1560862833272565
+    ],
+    "bias": -6.711304266026058
+  },
+  "feature_importances": [
+    {
+      "feature": "estimated_hours_to_empty",
+      "importance": 0.4208,
+      "displayName": "Estimated Hours To Empty"
+    },
+    {
+      "feature": "current_balance",
+      "importance": 0.3857,
+      "displayName": "Current Balance"
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0279,
+      "displayName": "Is Weekend"
+    },
+    {
+      "feature": "withdrawal_24h",
+      "importance": 0.0248,
+      "displayName": "Withdrawal 24H"
+    },
+    {
+      "feature": "withdrawal_6h",
+      "importance": 0.0209,
+      "displayName": "Withdrawal 6H"
+    },
+    {
+      "feature": "atm_avg_daily_demand",
+      "importance": 0.0205,
+      "displayName": "Atm Avg Daily Demand"
+    },
+    {
+      "feature": "atm_peak_hour_demand",
+      "importance": 0.0143,
+      "displayName": "Atm Peak Hour Demand"
+    },
+    {
+      "feature": "withdrawal_12h",
+      "importance": 0.0118,
+      "displayName": "Withdrawal 12H"
+    },
+    {
+      "feature": "refill_amount",
+      "importance": 0.0101,
+      "displayName": "Refill Amount"
+    },
+    {
+      "feature": "transaction_velocity",
+      "importance": 0.0096,
+      "displayName": "Transaction Velocity"
+    },
+    {
+      "feature": "time_since_last_refill",
+      "importance": 0.0094,
+      "displayName": "Time Since Last Refill"
+    },
+    {
+      "feature": "rolling_std_withdrawal",
+      "importance": 0.0084,
+      "displayName": "Rolling Std Withdrawal"
+    },
+    {
+      "feature": "withdrawal_1h",
+      "importance": 0.0069,
+      "displayName": "Withdrawal 1H"
+    },
+    {
+      "feature": "demand_growth_rate",
+      "importance": 0.0066,
+      "displayName": "Demand Growth Rate"
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0061,
+      "displayName": "Hour"
+    },
+    {
+      "feature": "withdrawal_3h",
+      "importance": 0.0042,
+      "displayName": "Withdrawal 3H"
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0041,
+      "displayName": "Day Of Week"
+    },
+    {
+      "feature": "rolling_mean_withdrawal",
+      "importance": 0.0041,
+      "displayName": "Rolling Mean Withdrawal"
+    },
+    {
+      "feature": "estimated_daily_demand",
+      "importance": 0.0039,
+      "displayName": "Estimated Daily Demand"
+    }
+  ],
+  "timestamp": "2026-09-26T19:53:29.135788",
+  "min_cash_threshold": 15000
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ATM Cash-Out Prediction & Monitoring System",
+  "description": "Production-grade machine learning system to predict ATM cash-outs from transaction logs, optimize cash replenishment, and monitor risk levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
